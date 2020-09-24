@@ -21,7 +21,13 @@ public class Duck {
 		this.favoriteFood = favoriteFood;
 		
 	}
+	
 //	Methods: functionality
-	void waddle() {};
-	void quack() {};
+	void waddle() {
+		System.out.println("Waddle");
+	};
+	void quack() {
+		System.out.println("Quack");
+	};
+	
 }

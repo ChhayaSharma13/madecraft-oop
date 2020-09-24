@@ -29,5 +29,10 @@ public class Duck {
 	void quack() {
 		System.out.println("Quack");
 	};
-	
+//	toString method is used to represent any object as a String
+//	java compiler internally invokes the toString() method on the object.
+//	override toString() method to return the desired output
+	public String toString() {
+		return "My name is "+this.name + ", my life expectancy is "+this.lifeExpectancy+" and my favorite food is " + this.favoriteFood;
+	}
 }

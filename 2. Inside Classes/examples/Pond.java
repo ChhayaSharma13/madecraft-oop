@@ -12,7 +12,7 @@ public class Pond {
 		d1.waddle();
 		d1.quack();
 		System.out.println(d1.equals(d2));
-		
+		System.out.println(d1);
 	}
 
 }

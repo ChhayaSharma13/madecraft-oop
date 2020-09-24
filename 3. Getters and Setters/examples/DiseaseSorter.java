@@ -23,16 +23,14 @@ public class DiseaseSorter {
 		 * 	2. access the member variable directly - breaks encapsulation 
 		 * 	3. create a setter
 		 */
-
-		cancer.setCurable(true);
-
-		System.out.println("Curable diseases: ");
-		for (Disease disease : diseases) {
-			if (disease.isCurable()) {
-				System.out.println(disease.getName());
-			}
+		for(Disease disease: diseases) {
+			System.out.println(disease.isCurable());
 		}
-
+		
+		for(Disease disease: diseases) {
+			System.out.println(disease.getName());
+		}
+		
 	}
 
 }

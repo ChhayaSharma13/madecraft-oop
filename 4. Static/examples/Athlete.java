@@ -12,6 +12,7 @@ public class Athlete {
 		this.name = name;
 		this.speed = speed;
 		runnersInRace++;
+//		setting the bib no depending upon runnersinRace
 		this.bibNumber = runnersInRace;
 	}
 
@@ -28,5 +29,7 @@ public class Athlete {
 		return runnersInRace;
 	}
 	
+//	to call static method, outside of class ideally we should use - Class.methodName()
+//	Don't use too much static that way we are not really using Object Oriented Code
 	
 }
